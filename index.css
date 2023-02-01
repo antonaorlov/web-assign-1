@@ -17,3 +17,23 @@ h1{
     margin-right: auto;
     width: 50%;
 }
+
+
+#navbar {
+    overflow: hidden;
+    background-color: pink;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
