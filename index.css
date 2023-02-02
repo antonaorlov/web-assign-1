@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color:blue;
   }
 
 h1{
@@ -7,15 +7,15 @@ h1{
    
 }
 
-.image{
-    width: 500px;
-    height:500px;
+img{
+    width: 50%;
+    height:50%;
     padding:2em;
     justify-content: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    
 }
 
 #navbar {
@@ -44,4 +44,3 @@ h1{
     color: red;
   }
  
-  
