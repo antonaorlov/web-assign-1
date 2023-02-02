@@ -12,11 +12,14 @@ h1{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 120%;
-  background-color: pink;
+  height: auto;
+  background: #32d994;
+background: -webkit-linear-gradient(215deg, #32d994 0%, #0d9728 100%);
+background: linear-gradient(215deg, #32d994 0%, #0d9728 100%);
   margin-bottom: 1em;
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
   }
   
   #navbar a {
@@ -33,8 +36,18 @@ h1{
     color: red;
   }
 
-  
-  
+  p{
+    color: black; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+    background: rgba(15, 137, 236, 0.5);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(27, 231, 187, 0.25);
+  }
+
   table {
     width: 100%;
     border-collapse: collapse;
@@ -58,6 +71,8 @@ h1{
     max-width:100%;
     height:auto;
     width:50%;
+    clip: rect(0px,60px,200px,0px);
+    
   }
   @media only screen and (max-width: 768px) {
     img {
