@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="seals.css">
+    <link rel="stylesheet" href="css/seals.css">
     
-    <title>Document</title>
+    <title>Seals</title>
 </head>
 <body>
     <div id="navbar">
@@ -14,8 +14,21 @@
         <a href="index.html">Home</a>
         <a href="#"></a>
     </div>
-    <h1>Why seals are cool</h1>
+    <h1 id="js">Why seals are cool</h1>
     <h3>Facts about Seals</h3>
+    <script>
+      function changeH1Color(){
+        document.getElementById('js').style.color='red';
+      }
+
+    </script>
+    <div class="container">
+      <div class="vertical-center">
+    <button class="button-33" 
+    onclick="changeH1Color()">Click me</button>
+</div>
+</div> 
+
     <table id="imgx" class="col-xs-12 col-sm-12" style="padding-bottom:5px;">
         <tr>
           <td><img  class="img-fluid" src="https://image.pbs.org/video-assets/AoorPnF-asset-mezzanine-16x9-XdXScyI.png" alt="seal1"></td>

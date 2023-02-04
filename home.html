@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="css/home.css">
     
+
     <title>Red panda</title>
 </head>
 <body>
@@ -14,8 +15,30 @@
         <a href="index.html">Home</a>
         <a href="#"></a>
     </div>
-    <h1>Why Red Pandas are cool</h1>
+    <h1 id="js">Why Red Pandas are cool</h1>
     <h3>Facts about Red pandas</h3>
+
+    <script>
+      function changeH1Color(){
+        if(  document.getElementById('js').style.color='black'){
+          document.getElementById('js').style.color='red';
+        }
+        if (document.getElementById('js').style.color='red'){
+          document.getElementById('js').style.color='blue';
+        }
+        
+      }
+
+    </script>
+      
+    <div class="container">
+      <div class="vertical-center">
+    <button class="button-33" 
+    onclick="changeH1Color()">Click me</button>
+</div>
+</div> 
+
+
     <table id="imgx" class="col-xs-12 col-sm-12" style="padding-bottom:5px;">
         <tr>
           <td><img  class="img-fluid" src="https://images.theconversation.com/files/317421/original/file-20200226-24651-1or3uxq.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop" alt="red panda 1"></td>
